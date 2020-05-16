@@ -1,3 +1,5 @@
+module.exports = () => {
+ 
 /**
  * IS_CN: 如果为世纪互联版本，请将 0 改为 1
  * EXPOSE_PATH：暴露路径，如全盘展示请留空，否则按 '/媒体/音乐' 的格式填写
@@ -203,4 +205,4 @@ exports.main_handler = async (event, context, callback) => {
 //     const NEW_ACCESS_TOKEN = JSON.parse(data.body);
 //     main_handler({ body: 'path=/Proxy&encrypted=' + NEW_ACCESS_TOKEN.encrypted + '&plain=' + NEW_ACCESS_TOKEN.plain + '&passwd=1234', queryString: {} }).then(console.log);
 // });
-
+}
